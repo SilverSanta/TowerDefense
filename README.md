@@ -1,5 +1,5 @@
 # INSTRUCTION
-The zipped file contained within this repository needs to be unpacked directly in the main folder to work.
+The zipped file contained within this repository needs to be unpacked directly in the main folder for the project to work.
 
 # TowerDefense
 This is a tower defense game, where th player needs to set traps and cast spells to prevent enemy units from reaching and destroying the base.
