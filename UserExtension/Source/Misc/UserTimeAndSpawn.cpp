@@ -87,7 +87,8 @@ void UserTimeAndSpawn::_CountDown()
 					m_GameState->m_CurrentEnemyUnit = 0;
 					m_bCurrentWaveExhausted = false;
 					m_GameState->_Set_GamePhaseTo(user::GamePhase::DEFENSE_PHASE);
-					bool Exit = true;
+					
+					bool Exit = (m_GameState->m_Mode == user::GameMode::PLACEMENT_MODE)?(true):(false);
 					m_GameState->_EXIT_PLACEMENT_MODE(Exit);
 				}
 			}

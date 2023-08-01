@@ -475,7 +475,7 @@ void HandleEvents()
 		{
 			// Exit placement mode?
 			bool bExitPlacementMode = false;
-			if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE)
+			if ((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || event.button.button == SDL_BUTTON_RIGHT)
 			{
 				bExitPlacementMode = true;				
 			}
